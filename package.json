@@ -1,0 +1,19 @@
+{
+  "name": "capture-the-flag",
+  "version": "1.0.0",
+  "description": "videogame in nodejs with pixi2d",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julkian/captureTheFlag.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julkian/captureTheFlag/issues"
+  },
+  "homepage": "https://github.com/julkian/captureTheFlag#readme"
+}
