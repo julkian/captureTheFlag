@@ -1,9 +1,7 @@
 /* Requiring variables */
 var serverURL = 'localhost:9000'
 var socket = require('socket.io-client')(serverURL)
-var keyboard = require('../utility/Keyboar.js')
-var Hero = require('../shared/Hero.js')
-var Map = require('../shared/Map.js')
+var keyboard = require('../../utility/Keyboard.js')
 
 /*Objects on the game*/
 var hero = new Hero()

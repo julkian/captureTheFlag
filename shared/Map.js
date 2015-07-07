@@ -19,13 +19,4 @@ Map.prototype.getCell = function (i, j) {
 	return null
 }
 
-/* Maybe not needed
-Map.prototype.getCellX = function (i) {
-	return this.cellSide*i
-}
-
-Map.prototype.getCellY = function (j) {
-	return this.cellSide*j
-}
-*/
 module.exports = Map
