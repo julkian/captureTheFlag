@@ -1,4 +1,10 @@
+var MapObject = require('./MapObject')
 
-function Hero () {}
+function Player (i, j, cellSide) {
+	MapObject.apply(this, arguments)
+	this.type = "player"
+}
 
-module.exports = Hero
+Player.prototype = new MapObject()
+
+module.exports = Player
