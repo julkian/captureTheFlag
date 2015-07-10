@@ -38,10 +38,6 @@ Map.prototype.getCellSide = function () {
 //generates a stringified object that only contains the cells that are occupied for some object
 Map.prototype.generatePacket = function () {
 	var packet = {}
-	packet.rows = this.rows
-	packet.columns = this.columns
-	packet.width = this.width
-	packet.height = this.height
 	packet.occupiedCells = []
 	for (var i = 0; i < this.rows; ++i) {
 		for (var j = 0; j < this.columns; ++j)
@@ -49,6 +45,7 @@ Map.prototype.generatePacket = function () {
 				packet.occupiedCells.push(this.map[i][j].object)
 			}
 	}
+	return packet
 }
 
 module.exports = Map
